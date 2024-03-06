@@ -1,8 +1,9 @@
 import './Navegacao.css'
 
-function Navegacao(){
+function Navegacao() {
+
     return(
-        <div className="barra-navegacao"> 
+        <div className="barra-navegacao">
             <div className="logo-zoo">
                 <h1>ZOOLÓGICO</h1>
             </div>
@@ -10,14 +11,14 @@ function Navegacao(){
             <div className="navbar-opcoes">
                 <ul>
                     <li>Início</li>
-                    <li>Os animais</li>
+                    <li>Os Animais</li>
                     <li>Fotos</li>
                     <li>Depoimentos</li>
                     <li>Login</li>
                 </ul>
             </div>
         </div>
-    )
+    );
 }
- 
+
 export default Navegacao;
