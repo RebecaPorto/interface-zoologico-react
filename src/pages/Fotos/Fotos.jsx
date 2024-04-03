@@ -1,10 +1,12 @@
+import './Fotos.css';
 import Navegacao from '../../components/Navegacao/Navegacao';
+import ImgCarrossel from '../../components/ImgCarrosel/imgCarrosel';
 
 function Fotos() {
     return(
         <>
             <Navegacao />
-            <h1><p style={{color:"#000"}}>NADA AQUI AINDA</p></h1>
+            <ImgCarrossel />
         </>
     );
 }
